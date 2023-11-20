@@ -137,7 +137,7 @@ public class Login extends javax.swing.JFrame {
            
             st.close();
         } catch (Exception e) {
-             Logger.getLogger(From.class.getName()).log(Level.SEVERE,null, e);
+             Logger.getLogger(Login.class.getName()).log(Level.SEVERE,null, e);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -201,7 +201,7 @@ public class Login extends javax.swing.JFrame {
             rs.close();
             st.close();
         } catch (Exception e) {
-            Logger.getLogger(FORM.class.getName()).log(Level.SEVERE,null, e);
+            Logger.getLogger(Login.class.getName()).log(Level.SEVERE,null, e);
         }
     }
 }
